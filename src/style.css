@@ -100,8 +100,8 @@
 @keyframes save-spin{to{transform:rotate(360deg)}}
 .form-actions button:disabled,.sortable-photos button:disabled{opacity:.55;cursor:wait}
 
-.hero-sleeve > b,
-.hero-sleeve > i {
+.hero-sleeve-title > b,
+.hero-sleeve-title > i {
   position: absolute;
   left: 17px;
   font: 800 24px/1.05 Manrope !important;
@@ -110,11 +110,11 @@
   white-space: nowrap;
 }
 
-.hero-sleeve > b {
+.hero-sleeve-title > b {
   top: calc(50% - 25px);
 }
 
-.hero-sleeve > i {
+.hero-sleeve-title > i {
   top: calc(50% + 1px);
 }
 
